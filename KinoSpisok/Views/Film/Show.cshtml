@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Films>
+
+@{ 
+    Layout = null;
+}
+
+<table>
+    <thead>
+        <tr><td>Descriptions</td></tr>
+    </thead>
+    <tbody>
+        @foreach(var f in Model)
+        {
+            <tr><td>@f.Description</td></tr>
+        }
+    </tbody>
+</table>

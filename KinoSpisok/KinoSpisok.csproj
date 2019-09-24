@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\films\" />
+    <Folder Include="wwwroot\images\menu\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\films\k1.png" />
+    <None Include="wwwroot\images\films\k10.png" />
+    <None Include="wwwroot\images\films\k2.png" />
+    <None Include="wwwroot\images\films\k3.png" />
+    <None Include="wwwroot\images\films\k4.png" />
+    <None Include="wwwroot\images\films\k5.png" />
+    <None Include="wwwroot\images\films\k6.png" />
+    <None Include="wwwroot\images\films\k7.png" />
+    <None Include="wwwroot\images\films\k8.png" />
+    <None Include="wwwroot\images\films\k9.png" />
+    <None Include="wwwroot\images\menu\registration.png" />
+    <None Include="wwwroot\images\menu\search.png" />
+  </ItemGroup>
+
+</Project>

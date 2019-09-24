@@ -1,0 +1,82 @@
+﻿@{
+    Layout = null; 
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>KinoSpisok</title>
+    <script src="~/js/script.js" defer></script>
+
+</head>
+<body>
+    <div class="main">
+        <div class="head"></div>
+        <div class="logo">
+            <h2><a title="На главную" href="#"><span>Kino</span>Spisok<span>.ru</span></a></h2>
+        </div>
+        <div class="search_nav">
+            <form method="post" asp-action="Show">
+                <input id="serachInput" type="text" name="name">
+                <button type="submit" id="search1"><img src="~/images/menu/search.png"></button>
+            </form>
+            
+        </div>
+        <div class="registration_nav">
+            <a href="#" title="Регистрация"><img src="~/images/menu/registration.png"></a>
+        </div>
+        <div id="menu">
+            <a class="" href="#">pppp</a>
+            <a class="" href="#">ppp</a>
+            <a class="" href="#">ppp</a>
+            <a class="" href="#">МЕНЮ САЙТА:</a>
+            <a class="" asp-action="Films">ФИЛЬМЫ</a>
+            <a class="" href="#">СЕРИАЛЫ</a>
+            <a class="" href="#">МУЛЬТФИЛЬМЫ</a>
+            <a class="" href="#">РУССКОЕ КИНО</a>
+            <a class="" href="#">ТРЕЙЛЕРЫ</a>
+            <a class="" href="#">ПОДБОРКИ</a>
+
+        </div>
+
+        <div id="slider">
+            <div id="polosa">
+                <img src="~/images/films/k1.png">
+                <img src="~/images/films/k2.png">
+                <img src="~/images/films/k3.png">
+                <img src="~/images/films/k4.png">
+                <img src="~/images/films/k5.png">
+                <img src="~/images/films/k6.png">
+                <img src="~/images/films/k7.png">
+                <img src="~/images/films/k8.png">
+                <img src="~/images/films/k9.png">
+                <img src="~/images/films/k10.png">
+            </div>
+        </div>
+
+
+
+        <a id="knopka">Вперед</a>
+
+        <div id="text">
+            <hr>
+            <p>
+                KinoSpisok — один из крупнейших российских онлайн-кинотеатров(трейлеров), который сделает просмотр трейлеров доступнее,
+                а вечер — интереснее! Современный мир и технологии предоставляют миллионам людей возможность смотреть любимые трейлеры
+                в режиме онлайн. Посещать обычный кинотеатр для просмотра иногда утомительно, ждать трейлер в эфире телевидения не хватает терпения,
+                но наслаждаться просмотром у себя в кровати всегда приятно! Бесплатные трейлеры на KinoSpisok можно смотреть
+                онлайн в HD качестве в удобное время.
+
+            </p>
+            <hr>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

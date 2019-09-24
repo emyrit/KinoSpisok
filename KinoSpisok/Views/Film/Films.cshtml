@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Films>
+
+@{
+    Layout = null; 
+}
+
+
+
+
+<table class="table">
+           
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Year</th>
+                <th scope="col">Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            @foreach (var f in Model)
+            {
+                <tr>
+                    <th>@f.Id</th>
+                    <td>
+                        @Html.ActionLink(f.Name, "Show", new { id=f.Id})
+                    </td>
+                    <td>@f.Year</td>
+                    <td>@f.Rating</td>
+                </tr>
+                   
+            }
+</tbody>
+    </table>
